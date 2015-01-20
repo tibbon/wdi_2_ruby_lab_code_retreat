@@ -58,9 +58,14 @@ class World
   end
 
   def next_world
-    # for each cell, count alive neighbors
+    # map each cell, count alive neighbors
+    # tell each cell how many alive neighbors it has
+    # Create a new world from those results
     World.new()
   end
 
   private
+
+  def count_alive_neighbors(cell)
+  end
 end
